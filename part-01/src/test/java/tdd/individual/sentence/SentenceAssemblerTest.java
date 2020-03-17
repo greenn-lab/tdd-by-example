@@ -22,9 +22,9 @@ public class SentenceAssemblerTest {
   void shouldAcceptMessage() {
     final String message = "..!1..!3..!2..";
     final SentenceAssembler assembler = new SentenceAssembler(message);
-    
-    assertNotNull(assembler);
   
+    assertNotNull(assembler);
+
     assembler.addParameter("A");
     assembler.addParameter("B");
     assembler.addParameter("C");
